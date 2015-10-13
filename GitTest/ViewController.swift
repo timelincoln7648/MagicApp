@@ -9,9 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let myFeature = CrazyNewFeature()
 
     @IBAction func mainButton(sender: UIButton) {
         print("good job!")
+        someNewFunc()
+        myFeature.makeMagic()
     }
     
     override func viewDidLoad() {
