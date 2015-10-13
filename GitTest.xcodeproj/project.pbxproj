@@ -12,6 +12,7 @@
 		CB3F7D9A1BCDA2E500D01815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3F7D981BCDA2E500D01815 /* Main.storyboard */; };
 		CB3F7D9C1BCDA2E500D01815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3F7D9B1BCDA2E500D01815 /* Assets.xcassets */; };
 		CB3F7D9F1BCDA2E500D01815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3F7D9D1BCDA2E500D01815 /* LaunchScreen.storyboard */; };
+		CB3F7DA71BCDA5CE00D01815 /* CrazyNewFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3F7DA61BCDA5CE00D01815 /* CrazyNewFeature.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CB3F7D9B1BCDA2E500D01815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB3F7D9E1BCDA2E500D01815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB3F7DA01BCDA2E500D01815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3F7DA61BCDA5CE00D01815 /* CrazyNewFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyNewFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CB3F7D941BCDA2E500D01815 /* AppDelegate.swift */,
 				CB3F7D961BCDA2E500D01815 /* ViewController.swift */,
+				CB3F7DA61BCDA5CE00D01815 /* CrazyNewFeature.swift */,
 				CB3F7D981BCDA2E500D01815 /* Main.storyboard */,
 				CB3F7D9B1BCDA2E500D01815 /* Assets.xcassets */,
 				CB3F7D9D1BCDA2E500D01815 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3F7D971BCDA2E500D01815 /* ViewController.swift in Sources */,
+				CB3F7DA71BCDA5CE00D01815 /* CrazyNewFeature.swift in Sources */,
 				CB3F7D951BCDA2E500D01815 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
